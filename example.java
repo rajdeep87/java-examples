@@ -30,7 +30,6 @@ class QuickSort
 		int temp = arr[i+1]; 
 		arr[i+1] = arr[high]; 
 		arr[high] = temp; 
-
 		return i+1; 
 	} 
 
